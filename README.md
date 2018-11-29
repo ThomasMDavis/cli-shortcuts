@@ -1,4 +1,4 @@
-# Git Shortcuts
+# Git CLI Shortcuts
 
 Collection of CLI shortcuts for Git.
 
