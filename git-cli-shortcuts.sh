@@ -10,6 +10,12 @@ function gitall() {
 	git push origin master;
 }
 
+#######################################
+# Add all, commit with message, push to named branch.
+#
+# Arguments:
+# 	commit message, branch name
+#######################################
 function gitto() {
 	git add *;
 	git commit -m "$2";
