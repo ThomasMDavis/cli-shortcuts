@@ -4,7 +4,7 @@ Collection of CLI shortcuts for Git.
 
 ## Installation
 
-Simply place the contents of `git-shortcuts.sh` in `.bash_profile` or `.bashrc`.
+Simply place the contents of `git-cli-shortcuts.sh` in `.bash_profile` or `.bashrc`.
 
 ## Usage
 
