@@ -1,24 +1,34 @@
-# Git CLI Shortcuts
+# CLI Shortcuts
 
-Collection of CLI shortcuts for Git.
+Collection of Bash shortcuts for CLI services.
 
 ## Installation
 
-Simply place the contents of `git-cli-shortcuts.sh` in `.bash_profile` or `.bashrc`.
+Simply place the contents of `{service}.sh` in `.bash_profile` or `.bashrc` and restart the shell.
 
 ## Usage
 
-### gitall
+### Git
 
-Add all, commit with message, push to master.
+#### gitall
+
+Push all changes to master branch with commit message.
 
 `gitall "{commit message}"`
 
-### gitto
+#### gitallto
 
-Add all, commit with message, push to named branch.
+Push all changes to a named branch with commit message.
 
-`gitto {branch} "{commit message}"`
+`gitallto {branch} "{commit message}"`
+
+### Docker
+
+#### dockerclean
+
+Stop and remove all containers.
+
+`dockerclean`
 
 ## License
 

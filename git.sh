@@ -1,5 +1,6 @@
 #######################################
-# Add all, commit with message, push to master.
+# Push all changes to master branch
+# with commit message.
 #
 # Arguments:
 # 	commit message
@@ -11,12 +12,13 @@ function gitall() {
 }
 
 #######################################
-# Add all, commit with message, push to named branch.
+# Push all changes to a named branch
+# with commit message.
 #
 # Arguments:
 # 	commit message, branch name
 #######################################
-function gitto() {
+function gitallto() {
 	git add *;
 	git commit -m "$2";
 	git push origin $1;
